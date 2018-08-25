@@ -16,7 +16,6 @@ p {
 }
 .header-image {
   background: url("https://i.imgur.com/xwJPtSg.jpg") no-repeat center center fixed;
-  opacity: 0.9;
   background-size: cover;
 }
 
