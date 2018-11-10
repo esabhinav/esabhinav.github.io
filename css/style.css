@@ -58,6 +58,14 @@ p {
   background-size: cover;
 }
 
+.photos {
+  padding-top: 5%;
+  padding-bottom: 5%;
+  text-align: center;
+  background-color: #4F5458;
+  background-size: cover;
+}
+
 .well {
   background: transparent;
   border: none;
