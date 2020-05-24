@@ -97,16 +97,23 @@ p {
   color: white;
   padding: 30px;
 }
+
 .fa:hover {
   color: #809090;
 }
+
 .devicon-github-plain{
 	color: white;
 }
+
 .devicon-linkedin-plain{
 	color: white;
 }
 
+.github-link{
+	color: white;
+	text-decoration:none;
+}
 
 /* .fa-twitter:hover {
   color: #0084b4
