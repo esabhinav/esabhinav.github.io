@@ -114,7 +114,9 @@ p {
 	color: white;
 	text-decoration:none;
 	font-size: 14px;
+	align: right;
 }
+
 
 .github-link:hover{
 	color:white;
