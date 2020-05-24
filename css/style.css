@@ -113,6 +113,12 @@ p {
 .github-link{
 	color: white;
 	text-decoration:none;
+	text-align: right;
+}
+
+.github-link:hover{
+	color:white;
+	text-decoration:underline;
 }
 
 /* .fa-twitter:hover {
