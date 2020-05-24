@@ -113,7 +113,7 @@ p {
 .github-link{
 	color: white;
 	text-decoration:none;
-	text-align: right;
+	font-size: 14px;
 }
 
 .github-link:hover{
