@@ -9,8 +9,12 @@
 	<link rel="stylesheet" href="css/lightbox.css">
 	<link rel="stylesheet" type="text/css" href="css/slideshowstyle.css">
     <script type="text/javascript" src="js/lightbox.js"></script>
-	<script async src="https://api.countapi.xyz/hit/esabhinav.github.io/visits?callback=cb"></script>
-	<script type="text/javascript" src="js/updateCount.js"></script>
+	<script>
+function cb(response) {
+    document.getElementById('visits').innerText = response.value;
+}
+</script>
+<script async src="https://api.countapi.xyz/hit/esabhinav.github.io/visits?callback=cb"></script>
 </head>
 
 <body>
@@ -265,7 +269,7 @@
 		</div>
 		<br>
 		<div>
-			<p>This page was viewed</p><h1 id="count">0</h1><p>times</p>
+			<p>This page was viewed</p><h1 id="visits">0</h1><p>times</p>
 		</div>
 	</div>
 </div>
