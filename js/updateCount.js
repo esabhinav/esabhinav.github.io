@@ -1,3 +1,3 @@
 function cb(response) {
-    document.getElementById('visits').innerText = response.value;
+    document.getElementById('count').innerText = response.value;
 }
