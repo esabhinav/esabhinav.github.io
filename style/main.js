@@ -41,11 +41,11 @@ $(document).ready(function () {
 		  $.instagramFeed({
 		    'username': "flabbergasting_pixel",
 		    'container': "#instagram-feed-demo2",
-		    'items_per_row': 4,
+		    'items_per_row': 3,
 		    'display_profile': true,
 		    'display_biography': false,
 		    'display_igtv': false,
-		    'items': 12
+		    'items': 9
 		  });
 	});
 	
