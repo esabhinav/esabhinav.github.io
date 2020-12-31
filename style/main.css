@@ -494,6 +494,22 @@ li{
 	flex-basis: 100%;
 }
 
+.personal_instagram{
+	display: flex;
+  	flex-wrap: wrap;
+  	gap: 2rem;
+  	align-items: center;
+	justify-content: center;
+}
+
+.insta{
+	flex:1;
+}
+
+.details{
+	flex:3;
+}
+
 .fa-user-secret{
 	font-size: 2rem;
 }
